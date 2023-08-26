@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatroom</title>
+    <link rel="stylesheet" type="text/css" href="website.css">
+</head>
+<body>
+    <div class="header">
+        <div class="line-number">01</div>
+        <h1>Free Yourself</h1>
+    </div>
+    <div class="text-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="chat-container">
+        <div class="chatbox">
+            <div class="message-container" id="message-container">
+                <!-- Existing and newly appended messages will be here -->
+            </div>
+            <div class="input-container">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button id="emoji-button">😀</button>
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+        <div id="emoji-tray" class="emoji-tray">
+            <!-- Emoji picker will be rendered here -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@3.0.0/dist/emoji-mart.min.js"></script>
+    <script src="website.js"></script>
+</body>
+</html>
